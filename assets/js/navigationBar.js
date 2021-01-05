@@ -1,31 +1,33 @@
+
 $(document).ready(function () {
 
-    // Define the navbar as a variable
-    var nav = $('.navbar');
-   var aboutme = $('.aboutme'); 
+    // Check the menus offset. 
+    var menu = $('.navbar');
+    var aboutme = $('.aboutme');
 
-    // off set the navbar
-    var offsetnav = nav.offset().top-88.88;
+    // scrool
+    var navScroll = menu.offset().top-88.88;
 
 
-    function scrollnavbar() {
+    function scroll() {
 
         // Check the menus offset. 
-        if ($(window).scrollTop() >= offsetnav) {
+        if ($(window).scrollTop() >= navScroll) {
 
-            //if it needs to be fixed do it
+            //If it is beyond the offset, fix it to the top.
             $(menu).removeClass('nav-scroll');
             $(menu).addClass('fixed-top');
 
         } else {
 
-            // Otherwise, leave it as is
+    // Otherwise, leave it as is
             $(menu).addClass('nav-scroll');
             $(menu).removeClass('fixed-top');
 
         }
     }
 
-    // call this function when scrolling the navbar
-    document.onscroll = scrollnavbar;
+      // call this function when scrolling the navbar
+    document.onscroll = scroll;
+
 });
