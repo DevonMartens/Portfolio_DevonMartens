@@ -116,7 +116,7 @@ body {
 
 .banner {
     height: calc(100vh + 88.88px);
-    background-image: url("");
+    background-image: url("https://github.com/DevonMartens/Portfolio_DevonMartens/blob/master/assets/images/background_red_mountains.jpg?raw=true");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
