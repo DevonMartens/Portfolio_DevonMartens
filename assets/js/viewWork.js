@@ -3,8 +3,8 @@ $('.view-work-btn').hover(function () {
     let supportsTouch = 'ontouchstart' in window || navigator.msMaxTouchPoints;
     if (mobile.matches || supportsTouch === false) {
        $('.banner-image2').css('opacity', '1');
-       $('.typewrite').css('color', 'blue');
-       $('.banner-title h1').css('color', 'blue');
+       $('.typewrite').css('color', 'black');
+       $('.banner-title h1').css('color', 'black');
        $('.banner-title .btn').removeClass("btn-secondary");
        $('.banner-title .btn').addClass("btn-primary");
        $('.navbar').removeClass("navbar-dark");
@@ -13,7 +13,7 @@ $('.view-work-btn').hover(function () {
     }
  },
     function () {
-       $('.banner-img2').css('opacity', '0');
+       $('.banner-image2').css('opacity', '0');
        $('.typewrite').css('color', 'white');
        $('.banner-title h1').css('color', 'white');
        $('.banner-title .btn').removeClass("btn-primary");

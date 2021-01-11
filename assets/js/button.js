@@ -31,4 +31,11 @@ $(".home-btn").on("click", (event) => {
         scrollTop: 0
     }, 1000);
 })
-
+//onclick function for if view work button is clicked
+$(".view-work-btn").on("click", (event) => {
+    event.preventDefault();
+    // scrolls to portfolio element
+    $('html, body').animate({
+        scrollTop: $(".portfolio").offset().top
+    }, 1000);
+})
