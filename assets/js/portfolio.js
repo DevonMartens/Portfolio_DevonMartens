@@ -50,6 +50,15 @@ const projects = [
         url: "https://media.giphy.com/media/vZeYi2lWCGRDdHxPz2/giphy.gif",
         github: "https://github.com/DevonMartens/Alpaca_Api",
         category: ["group", "python"]
+    }, 
+    {
+        id: "NG",
+        name: "The Negotiator",
+        description: "A third party API Python App for tracking trades of stock",
+        thumbnail: "./assets/images/Negotiator.png",
+        url: "https://thenegotiator.herokuapp.com/",
+        github: "https://github.com/DevonMartens/The-Negotiator",
+        category: ["group", "javascript", "html", "css", "nodejs", "MySQL"]
     }
 
 ];
@@ -126,15 +135,20 @@ $(".portfolio-nodejs").on("click", (event) => {
     $(".portfolio-nodejs").addClass("portfolio-active");
     filterPortfolio("nodejs");
 });
-// Nodejs
+// Python
 $(".portfolio-python").on("click", (event) => {
     event.preventDefault();
     $(".portfolio a").removeClass("portfolio-active");
     $(".portfolio-python").addClass("portfolio-active");
     filterPortfolio("python");
 });
-
-
+// MySQL
+$(".portfolio-MySQL").on("click", (event) => {
+    event.preventDefault();
+    $(".portfolio a").removeClass("portfolio-active");
+    $(".portfolio-MySQL").addClass("portfolio-active");
+    filterPortfolio("MySQL");
+});
 // // Open resume 
 // $(".open-resume").on("click", (event) => {
 //     event.preventDefault();
