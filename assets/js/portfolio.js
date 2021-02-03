@@ -32,7 +32,7 @@ const projects = [
         thumbnail: "./assets/images/jerkwork.png",
         url: "https://devonmartens.github.io/Jerkday_Workday/",
         github: "https://github.com/DevonMartens/Jerkday_Workday",
-        category: ["group", "javascript", "html", "css", "nodejs", "React"]
+        category: ["group", "javascript", "html", "css"]
     }, {
         id: "CC",
         name: "Crystal Collector",
@@ -40,7 +40,7 @@ const projects = [
         thumbnail: "./assets/images/unit4.png",
         url: "https://devonmartens.github.io/unit-4-game/",
         github: "https://github.com/DevonMartens/unit-4-game",
-        category: ["group", "javascript", "html", "css", "nodejs"]
+        category: ["group", "javascript", "html", "css"]
     },
     {
         id: "AA",
@@ -55,7 +55,7 @@ const projects = [
         id: "NG",
         name: "The Negotiator",
         description: "A third party API Python App for tracking trades of stock",
-        thumbnail: "./assets/images/ProX.jpg",
+        thumbnail: "./assets/images/Negotiator.png",
         url: "https://thenegotiator.herokuapp.com/",
         github: "https://github.com/DevonMartens/The-Negotiator",
         category: ["group", "javascript", "html", "css", "nodejs", "MySQL"]
@@ -64,7 +64,7 @@ const projects = [
         id: "PG",
         name: "The Psychic Game",
         description: "The first Javascript application I ever made",
-        thumbnail: "./assets/images/Negotiator.png",
+        thumbnail: "./assets/images/ProX.jpg",
         url: "https://devonmartens.github.io/Psychic-Game/",
         github: "https://github.com/DevonMartens/Psychic-Game",
         category: ["group", "javascript", "html", "css"]
@@ -157,6 +157,13 @@ $(".portfolio-MySQL").on("click", (event) => {
     $(".portfolio a").removeClass("portfolio-active");
     $(".portfolio-MySQL").addClass("portfolio-active");
     filterPortfolio("MySQL");
+});
+// React
+$(".portfolio-react").on("click", (event) => {
+    event.preventDefault();
+    $(".portfolio a").removeClass("portfolio-active");
+    $(".portfolio-react").addClass("portfolio-active");
+    filterPortfolio("React");
 });
 // // Open resume 
 // $(".open-resume").on("click", (event) => {
