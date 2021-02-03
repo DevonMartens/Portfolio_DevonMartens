@@ -49,7 +49,7 @@ const projects = [
         thumbnail: "./assets/images/download.jpg",
         url: "https://media.giphy.com/media/vZeYi2lWCGRDdHxPz2/giphy.gif",
         github: "https://github.com/DevonMartens/Alpaca_Api",
-        category: ["group", "Python"]
+        category: ["group", "python"]
     }
 
 ];
@@ -125,6 +125,13 @@ $(".portfolio-nodejs").on("click", (event) => {
     $(".portfolio a").removeClass("portfolio-active");
     $(".portfolio-nodejs").addClass("portfolio-active");
     filterPortfolio("nodejs");
+});
+// Nodejs
+$(".portfolio-python").on("click", (event) => {
+    event.preventDefault();
+    $(".portfolio a").removeClass("portfolio-active");
+    $(".portfolio-python").addClass("portfolio-active");
+    filterPortfolio("python");
 });
 
 
