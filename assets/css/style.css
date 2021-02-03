@@ -252,6 +252,10 @@ body {
 
 .portfolio {
     padding-top: 90px;
+    /* background: url(mountain.jpg);
+    background-repeat: no-repeat;
+    background-size: auto; */
+  }
 }
 
 .portfolio .title {
