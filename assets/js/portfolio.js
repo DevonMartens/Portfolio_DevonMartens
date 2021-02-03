@@ -4,42 +4,42 @@ const projects = [
         name: "Friend Finder",
         description: "An app for finding a friend that fits your personality",
         thumbnail: "./assets/images/friendFinder.jpg",
-        url: "",
+        url: "https://friendfinder-2345.herokuapp.com/",
         github: "",
         category: ["group", "javascript", "html", "css", "nodejs"]
     },
     {
         id: "SC",
         name: "Securify",
-        description: "",
+        description: "https://github.com/DevonMartens/friendFinder",
         thumbnail: "./assets/images/Secuify.png",
         url: "https://devonmartens.github.io/Securify/",
         github: "https://github.com/DevonMartens/Securify",
         category: ["group", "javascript", "html", "css"]
     },
-    {
-        id: "CC",
-        name: "Crystal Collector",
-        description: "",
-        thumbnail: "./assets/images/unit4.png",
-        url: "",
-        github: "",
-        category: ["group", "javascript", "html", "css"]
-    },  {
+      {
         id: "CG",
         name: "Clicky Game",
         description: "",
-        thumbnail: "",
+        thumbnail: "./assets/images/simpsons.jpg",
         url: "",
-        github: "",
+        github: "https://github.com/DevonMartens/ClickyGame",
         category: ["group", "javascript", "html", "css", "nodejs", "React"]
     },  {
+        id: "JW",
+        name: "Jerkday Workday",
+        description: "Scheduling application for any mood",
+        thumbnail: "./assets/images/jerkwork.png",
+        url: "https://devonmartens.github.io/Jerkday_Workday/",
+        github: "https://github.com/DevonMartens/Jerkday_Workday",
+        category: ["group", "javascript", "html", "css", "nodejs", "React"]
+    }, {
         id: "CC",
         name: "Crystal Collector",
-        description: "",
-        thumbnail: "",
-        url: "",
-        github: "",
+        description: "https://devonmartens.github.io/unit-4-game/",
+        thumbnail: "./assets/images/unit4.png",
+        url: "https://devonmartens.github.io/unit-4-game/",
+        github: "https://github.com/DevonMartens/unit-4-game",
         category: ["group", "javascript", "html", "css", "nodejs"]
     }
 
