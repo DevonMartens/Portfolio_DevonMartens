@@ -36,11 +36,20 @@ const projects = [
     }, {
         id: "CC",
         name: "Crystal Collector",
-        description: "https://devonmartens.github.io/unit-4-game/",
+        description: "An .MathRandom(Get It haha) addition game",
         thumbnail: "./assets/images/unit4.png",
         url: "https://devonmartens.github.io/unit-4-game/",
         github: "https://github.com/DevonMartens/unit-4-game",
         category: ["group", "javascript", "html", "css", "nodejs"]
+    },
+    {
+        id: "AA",
+        name: "Alpaca_Api",
+        description: "A third party API Python App for tracking trades of stock",
+        thumbnail: "./assets/images/download.jpg",
+        url: "https://media.giphy.com/media/vZeYi2lWCGRDdHxPz2/giphy.gif",
+        github: "https://github.com/DevonMartens/Alpaca_Api",
+        category: ["group", "Python"]
     }
 
 ];
