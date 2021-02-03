@@ -55,10 +55,19 @@ const projects = [
         id: "NG",
         name: "The Negotiator",
         description: "A third party API Python App for tracking trades of stock",
-        thumbnail: "./assets/images/Negotiator.png",
+        thumbnail: "./assets/images/ProX.jpg",
         url: "https://thenegotiator.herokuapp.com/",
         github: "https://github.com/DevonMartens/The-Negotiator",
         category: ["group", "javascript", "html", "css", "nodejs", "MySQL"]
+    },
+    {
+        id: "PG",
+        name: "The Psychic Game",
+        description: "The first Javascript application I ever made",
+        thumbnail: "./assets/images/Negotiator.png",
+        url: "https://devonmartens.github.io/Psychic-Game/",
+        github: "https://github.com/DevonMartens/Psychic-Game",
+        category: ["group", "javascript", "html", "css"]
     }
 
 ];

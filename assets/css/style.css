@@ -252,11 +252,12 @@ body {
 
 .portfolio {
     padding-top: 90px;
-    /* background: url(mountain.jpg);
+    background: url(https://cdn.bozemannet.com/images/home/winter.jpg);
     background-repeat: no-repeat;
-    background-size: auto; */
+    /* background-size: auto; */
+    background-size: 100%;
   }
-}
+
 
 .portfolio .title {
     color: white;
