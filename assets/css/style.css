@@ -492,6 +492,7 @@ animation: zoom 0.2s ease-in-out forwards;
 
 }
 
+.iconify { width: 15%; height: 15%; }
 /* size adjustments*/
 @media screen and (max-width: 767px) {
     .view-work {
