@@ -39,3 +39,13 @@ $(".view-work-btn").on("click", (event) => {
         scrollTop: $(".portfolio").offset().top
     }, 1000);
 })
+
+
+//onclick function for if view work button is clicked
+$(".learn-aboutme").on("click", (event) => {
+    event.preventDefault();
+    // scrolls to portfolio element
+    $('html, body').animate({
+        scrollTop: $(".view-work-btn").offset().top
+    }, 1000);
+})
