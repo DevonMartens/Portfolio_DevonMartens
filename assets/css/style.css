@@ -478,16 +478,26 @@ animation: zoom 0.2s ease-in-out forwards;
     height: calc(100vh - 20px);
     z-index: 5;
 }
+
+
+ 
+ 
+ 
+ 
+ 
+ 
 /* Footer */
 
 .footer-container {
     padding-top: 60px;
+ 
   /* background-color: white; */
     text-align: center;
-    background-image: url("https://copperalliance.eu/uploads/2018/07/mountains-header-1400x260.jpg");
-    background-position: top;
-    background-repeat: no-repeat;
+    background-image: url("https://www.rei.com/dam/content_1q1a4045_hero_lg.jpg");
+    background-position: center;
+    background-repeat: repeat-x;
     background-size: cover;
+   
 
 
 }
@@ -531,7 +541,7 @@ animation: zoom 0.2s ease-in-out forwards;
 ul {
     list-style: none;
   }
-  ul li::before {
+  #yes ::before {
     content: "✅";
     display: inline-block;
     margin-right: 0.2rem;
