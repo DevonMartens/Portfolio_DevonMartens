@@ -526,7 +526,7 @@ animation: zoom 0.2s ease-in-out forwards;
     .animatedunderlinemenu a {
         font-size: 10px;
     }
-}
+
 
 @media screen and (min-height: 1200px) {
     .view-work {
