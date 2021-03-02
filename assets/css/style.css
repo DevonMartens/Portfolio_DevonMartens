@@ -396,18 +396,18 @@ body {
     margin-right: auto;
 }
 /* job openess */
+#job { 
+   background-image: url("https://wallpaperaccess.com/full/253796.jpg");
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+}
 .jobopen {
     background-image: url("https://github.com/DevonMartens/Portfolio_DevonMartens/blob/master/assets/images/jobopenImages/E2969_01.jpg?raw=true");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
     background-repeat: no-repeat;
     background-position: center bottom;
     background-color: black;
     color: white;
-    margin: 40%;
-    
 
 }
 
