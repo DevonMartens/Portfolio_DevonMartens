@@ -2,7 +2,7 @@
 /* Body */
 
 body {
-    background-color: rgb(117,143,217, 1);
+    /* background-color: transparent; */
     overflow-x: hidden;
 }
 
@@ -491,6 +491,16 @@ animation: zoom 0.2s ease-in-out forwards;
     text-decoration: none;
 }
 
+
+.carousel {
+ height: 30%;
+ width: 30%;
+ margin: 5%;
+
+}
+.carouselbg {
+    background-color: transparent;
+}
 /* Resume */
 
 .resume-container {
@@ -510,13 +520,25 @@ animation: zoom 0.2s ease-in-out forwards;
  
  
 /* Footer */
-
-.footer-container {
+.ski-background {
     padding-top: 60px;
  
   /* background-color: white; */
     text-align: center;
     background-image: url("https://www.rei.com/dam/content_1q1a4045_hero_lg.jpg");
+    background-position: center;
+    background-repeat: repeat-x;
+    background-size: cover;
+   
+
+
+}
+.footer-container {
+    padding-top: 60px;
+ 
+  /* background-color: white; */
+    text-align: center;
+    background-color: white;
     background-position: center;
     background-repeat: repeat-x;
     background-size: cover;
